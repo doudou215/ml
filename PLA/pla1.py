@@ -36,7 +36,7 @@ for i in range(2000):
     Xp = X[row, :]
     yp = y[row, :]
     w = np.zeros((1, X.shape[1]))
-    num, w = pla1(Xp, yp, w,0.5)
+    num, w = pla1(Xp, yp, w, 0.5)
     ret += num
 print(w)
 print(ret/2000)
